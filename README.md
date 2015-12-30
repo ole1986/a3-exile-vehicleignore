@@ -7,8 +7,12 @@ An example is included in the configuration file using the map CUP Sahrani.
 
 ### Installation
 
-Copy the the `exile_server_vehicles.pbo` into your `@ExileServer\addons` directory.
-Customize the `vehiclesGridIgnore` with your grid number range
+- Customize the `vehiclesGridIgnore` located in `config.cpp` with grid numbers which should be ignored by the vehicle spawn script
+- Pack the exile_server_vehicles folder into exile_server_vehicles.pbo
+- Copy the `exile_server_vehicles.pbo` into your `@ExileServer\addons` directory.
+- restart server
+
+During the test I recommend to enable the vehicle DebugMarkers to verify the settings.
 
 **Please note:**
 
