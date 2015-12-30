@@ -9,7 +9,7 @@ Copy the the `exile_server_vehicles.pbo` into your `@ExileServer\addons` directo
 
 **Please note:**
 
-This version (without changing it) is focused to work on *CUP Sahrani* map only. 
+This version (without changing it) is a working example for *CUP Sahrani* map only.
 Please follow the instruction below to add your custom areas being ignored by the vehicle spawn script.
 
 ### Configuration
