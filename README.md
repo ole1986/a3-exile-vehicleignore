@@ -9,9 +9,39 @@ Copy the the `exile_server_vehicles.pbo` into your `@ExileServer\addons` directo
 
 **Please note:**
 
-This will only work for CUP Sahrani. 
-Please follow the instruction in Chapter *Configuration* to add your custom areas being ignored by vthe vehicle spawn script.
+This version (without changing it) is focused to work on *CUP Sahrani* map only. 
+Please follow the instruction below to add your custom areas being ignored by the vehicle spawn script.
 
 ### Configuration
 
-coming soon...
+Dependent on the VehicleGridSize defined in the exile server config section "VehicleSpawn" the number of GRID may vary.
+The Sahrani map for instance has 324 GRIDS when using VehicleGridSize of 1200
+
+By calculating sqrt(324) we get 18 x 18. Which means every line has 18 grids
+
+To keep it simple, the below "map" has only **three** grids per line.
+As you can see the number increases vertically.
+
+**This is very important to define it properly**
+
+```
+--- --- ---
+ 3 | 6 | 9
+--- --- ---
+ 2 | 5 | 8
+--- --- ---
+ 1 | 4 | 7
+--- --- ---
+```
+
+We want to ignore grid 2 and 3 as well as 7 to 9. So the setting will be
+
+**config.cpp**
+
+```
+vehiclesGridIgnore[] = { 
+	{2, 3}, /* ignore top left */
+	{7, 9} /* ignore the complete right side (one vertical line) */
+};
+```
+
