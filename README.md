@@ -1,6 +1,6 @@
 # Vehicle Spawn Ignore addon for ExileMod
 
-This addon is used to skip vehicle spawning from specific areas using grid numbers.
+This addon is used to skip vehicle from spawning at specific areas using grid numbers.
 An example is included in the configuration file using the CUP Sahrani map.
 
 ### Installation
