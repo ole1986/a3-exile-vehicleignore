@@ -1,4 +1,4 @@
-# Vehicle Spawn Ignore addon for ExileMod
+# Vehicle Spawn IgnoreList addon for ExileMod
 
 <sup>Version: 0.1 | Author: ole1986 | This addon is licensed under the Arma Public Licence</sup>
 
