@@ -6,6 +6,7 @@ An example is included in the configuration file using the CUP Sahrani map.
 ### Installation
 
 Copy the the `exile_server_vehicles.pbo` into your `@ExileServer\addons` directory.
+Customize the `vehiclesGridIgnore` with your grid number range
 
 **Please note:**
 
@@ -24,7 +25,7 @@ As you can see the number increases vertically.
 
 **This is very important to define it properly**
 
-<pre>
+```
 --- --- ---
  3 | 6 | 9
 --- --- ---
@@ -32,11 +33,11 @@ As you can see the number increases vertically.
 --- --- ---
  1 | 4 | 7
 --- --- ---
-</pre>
+```
 
 We want to ignore grid 2 and 3 as well as 7 to 9.
 
-<pre>
+```
 --- --- ---
  X | 6 | X
 --- --- ---
@@ -44,7 +45,7 @@ We want to ignore grid 2 and 3 as well as 7 to 9.
 --- --- ---
  1 | 4 | X
 --- --- ---
-</pre>
+```
 
 So, the setting `vehicleGridIgnore` will be written as follow:
 
