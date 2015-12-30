@@ -2,8 +2,8 @@
 
 <sup>Version: 0.1 | Author: ole1986 | This addon is licensed under the Arma Public Licence</sup>
 
-This addon is used to skip vehicle from spawning at specific areas using grid numbers.
-An example is included in the configuration file using the CUP Sahrani map.
+This addon is used to skip vehicle from spawning at specific areas using grid numbers of the map
+An example is included in the configuration file using the map CUP Sahrani.
 
 ### Installation
 
