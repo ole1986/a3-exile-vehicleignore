@@ -1,6 +1,6 @@
 # Vehicle Spawn Ignore addon for ExileMod
 
-<sup>Version: 0.1 | Author: ole1986 | This extension is licensed under the Arma Public Licence</sup>
+<sup>Version: 0.1 | Author: ole1986 | This addon is licensed under the Arma Public Licence</sup>
 
 This addon is used to skip vehicle from spawning at specific areas using grid numbers.
 An example is included in the configuration file using the CUP Sahrani map.
