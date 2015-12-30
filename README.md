@@ -16,7 +16,7 @@ During the test I recommend to enable the vehicle DebugMarkers to verify the set
 
 **Please note:**
 
-This version (without changing it) is a working example for *CUP Sahrani* map only.
+The packed version `exile_server_vehicles.pbo` is a working example for *CUP Sahrani* map only.
 Please follow the instruction below to add your custom areas being ignored by the vehicle spawn script.
 
 ### Configuration
