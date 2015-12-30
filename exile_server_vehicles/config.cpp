@@ -1,3 +1,10 @@
+/**
+ * Vehicle Spawn Ignore addon for ExileMod
+ * 
+ * version 0.1 | Author: ole1986 | This addon is licensed under the Arma Public Licence
+ * https://github.com/ole1986/a3-exile-vehicleignore
+ */
+
 class CfgPatches
 {
 	class exile_server
