@@ -24,7 +24,7 @@ As you can see the number increases vertically.
 
 **This is very important to define it properly**
 
-```
+<pre>
 --- --- ---
  3 | 6 | 9
 --- --- ---
@@ -32,9 +32,21 @@ As you can see the number increases vertically.
 --- --- ---
  1 | 4 | 7
 --- --- ---
-```
+</pre>
 
-We want to ignore grid 2 and 3 as well as 7 to 9. So the setting will be
+We want to ignore grid 2 and 3 as well as 7 to 9.
+
+<pre>
+--- --- ---
+ X | 6 | X
+--- --- ---
+ X | 5 | X
+--- --- ---
+ 1 | 4 | X
+--- --- ---
+</pre>
+
+So, the setting `vehicleGridIgnore` will be written as follow:
 
 **config.cpp**
 
